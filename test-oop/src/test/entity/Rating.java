@@ -2,7 +2,7 @@ package test.entity;
 
 public class Rating {
 	protected String PredmetName;
-	int Rating;
+	protected int Rating;
 	public Rating(String predmetName, int rating) {
 		super();
 		PredmetName = predmetName;
